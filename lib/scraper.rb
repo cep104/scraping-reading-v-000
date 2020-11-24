@@ -11,3 +11,6 @@ doc = Nokogiri::HTML(html)
  
  p doc.css(".gridContainer-EnvccM")[0].children.text
 # binding.pry
+
+
+#make sure it is selecting the right thing, code changes all the time so make sure you are grabbing the right css
